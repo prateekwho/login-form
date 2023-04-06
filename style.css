@@ -1,0 +1,65 @@
+/* Google Poppins Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Poppins', 'sans-sarif';
+    font-size: 14px;
+}
+
+/* main css */
+.wrapper{
+    padding: 50px 0;
+    background-image: url("images/bg.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    min-height: 100%;
+}
+
+.wrapper .logo img{
+    max-width: 40%;
+}
+
+.wrapper input{
+    background-color: #f5f8fa ;
+    border-color: #f5f8fa;
+    color: #5e6278;
+}
+
+.wrapper input:focus{
+    box-shadow: none;
+}
+
+.wrapper .our_button{
+    padding: 15px;
+    font-weight: 500;
+}
+
+.wrapper .login_with{
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: ease-in-out;
+}
+
+.wrapper .login_with:focus,
+.wrapper .our_button:focus{
+    box-shadow: none;
+}
+
+.wrapper .login_with:hover{
+    background-color: #e3e3e3;
+    border-color: #e3e3e3;
+}
+
+.wrapper .login_with img{
+    max-width: 8%;
+}
